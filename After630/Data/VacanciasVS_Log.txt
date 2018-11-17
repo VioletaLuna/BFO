@@ -1,0 +1,102 @@
+Lake Shore Cryotronics, Inc.
+Vibrating Sample Magnetometer
+***   Profile Execution Log   ***
+
+Profile Name:  VacanciasVS
+Report Date:   11/9/2018 3:41:59 PM
+User ID:       Default UserID
+
+
+Executed RAMP(FIELD,  0) at 11/9/2018 3:41:59 PM completed at 11/9/2018 3:42:14 PM
+
+HysCoFe2O4_Completa began 11/9/2018 3:42:14 PM completed 11/9/2018 4:54:10 PM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #1.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #1.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #1.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/9/2018 4:54:10 PM completed 11/9/2018 6:06:22 PM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #2.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #2.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #2.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/9/2018 6:06:22 PM completed 11/9/2018 7:18:34 PM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #3.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #3.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #3.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/9/2018 7:18:34 PM completed 11/9/2018 8:30:48 PM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #4.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #4.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #4.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/9/2018 8:30:48 PM completed 11/9/2018 9:43:00 PM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #5.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #5.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #5.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/9/2018 9:43:00 PM completed 11/9/2018 10:55:12 PM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #6.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #6.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #6.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/9/2018 10:55:12 PM completed 11/10/2018 12:07:24 AM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #7.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #7.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #7.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/10/2018 12:07:24 AM completed 11/10/2018 1:19:38 AM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #8.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #8.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #8.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/10/2018 1:19:38 AM completed 11/10/2018 2:31:50 AM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #9.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #9.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #9.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/10/2018 2:31:50 AM completed 11/10/2018 3:44:02 AM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #10.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #10.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #10.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/10/2018 3:44:02 AM completed 11/10/2018 4:56:13 AM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #11.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #11.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #11.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/10/2018 4:56:13 AM completed 11/10/2018 6:08:26 AM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #12.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #12.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #12.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/10/2018 6:08:26 AM completed 11/10/2018 7:20:37 AM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #13.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #13.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #13.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/10/2018 7:20:37 AM completed 11/10/2018 8:33:04 AM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #14.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #14.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #14.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+HysCoFe2O4_Completa began 11/10/2018 8:33:04 AM completed 11/10/2018 9:46:11 AM
+The data file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #15.txt
+The plot file from this experiment is C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #15.oc2
+VSM data is stored in: C:\IDEASVSM\Default UserID\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15  (ProfileData)\BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #15.dat
+VSM experiment is: C:\IDEASVSM\Default UserID\Experiments\HysCoFe2O4_Completa\HysCoFe2O4_Completa.stp
+
+Executed RAMP(FIELD,  0) at 11/10/2018 9:46:11 AM completed at 11/10/2018 9:46:38 AM
