@@ -4,16 +4,34 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 #Masa en mg
-m630=28.8
-nomMedicion = 'After630/Data/BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #'
+m630After=28.8
+m630Before =43.2
+
+nomMedicionAfter = 'After630/BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #'
+nomMedicionBefore ='Before630/BFO630_BeforeEstaSi_Recal600C_300K_91118_SETd15 #'
 extencion='.txt'
+
 ciclos = np.arange(1,16)
-coercitividadIzq = np.zeros(15)
-coercitividadDer = np.zeros(15)
-ancho= np.zeros(15)
-pendiente= np.zeros(15)
-magRemanente =np.zeros(15)
-magSaturacion = np.zeros(15)
+
+coercitividadIzqAfter = np.zeros(15)
+coercitividadIzqBefore = np.zeros(15)
+
+coercitividadDerAfter = np.zeros(15)
+coercitividadDerBefore = np.zeros(15)
+
+anchoAfter= np.zeros(15)
+anchoBefore= np.zeros(15)
+
+pendienteAfter= np.zeros(15)
+pendienteBefore= np.zeros(15)
+
+magRemanenteAfter =np.zeros(15)
+magRemanenteBefore =np.zeros(15)
+
+magSaturacionAfter = np.zeros(15)
+magSaturacionBefore = np.zeros(15)
+
+
 
 
 #Hallamos la pendiente
@@ -52,16 +70,27 @@ def calMagSaturacion(field, momentum):
 	
 plt.figure(figsize=(10, 7))
 for i in ciclos:
-	nombre = nomMedicion + str(i) + extencion
-	data = np.genfromtxt(nombre, delimiter = "", skip_header = 12)
-	fieldTem= data[:,0]
-	momentumTem = data[:,1]/m630 #Es necesario normalizar la magnetización con la masa de la muestra 
-	plt.plot(fieldTem,momentumTem, label = str(i))
-	pendiente[i-1]= calPendiente(fieldTem, momentumTem)
-	coercitividadIzq[i-1], coercitividadDer[i-1], ancho[i-1] = calCoercitividad(fieldTem, momentumTem)
-	magRemanente[i-1] =calMagRemanente(fieldTem, momentumTem)
-	magSaturacion[i-1] = calMagSaturacion(fieldTem, momentumTem)
+	nombreAfter = nomMedicionAfter + str(i) + extencion
+	data = np.genfromtxt(nombreAfter, delimiter = "", skip_header = 12)
+	fieldAfter= data[:,0]
+	momentumAfter = data[:,1]/m630After #Es necesario normalizar la magnetización con la masa de la muestra
 	
+	nombreBefore = nomMedicionBefore + str(i) + extencion
+	data = np.genfromtxt(nombreBefore, delimiter = "", skip_header = 12)
+	fieldBefore= data[:,0]
+	momentumBefore = data[:,1]/m630Before #Es necesario normalizar la magnetización con la masa de la muestra
+	 
+	plt.plot(fieldAfter,momentumAfter, label = str(i), c="red")	
+	pendienteAfter[i-1]= calPendiente(fieldAfter, momentumAfter)
+	coercitividadIzqAfter[i-1], coercitividadDerAfter[i-1], anchoAfter[i-1] = calCoercitividad(fieldAfter, momentumAfter)
+	magRemanenteAfter[i-1] =calMagRemanente(fieldAfter, momentumAfter)
+	magSaturacionAfter[i-1] = calMagSaturacion(fieldAfter, momentumAfter)
+	
+	plt.plot(fieldBefore,momentumBefore, label = str(i), c= "green")	
+	pendienteBefore[i-1]= calPendiente(fieldBefore, momentumBefore)
+	coercitividadIzqBefore[i-1], coercitividadDerBefore[i-1], anchoBefore[i-1] = calCoercitividad(fieldBefore, momentumBefore)
+	magRemanenteBefore[i-1] =calMagRemanente(fieldBefore, momentumBefore)
+	magSaturacionBefore[i-1] = calMagSaturacion(fieldBefore, momentumBefore)
 	
 
 plt.axhline(0, color='black')
@@ -73,29 +102,44 @@ plt.ylabel(u'M(emu)')
 plt.savefig("Plots/630MvsH15.png" )
 plt.close()
 
-plt.plot(ciclos, pendiente, c = "red", label ="Después")
+plt.plot(ciclos, pendienteAfter, c = "red", label ="Después")
+plt.plot(ciclos, pendienteBefore, c = "green", label ="Antes")
 plt.xlabel('Número de ciclos')
 plt.ylabel(u'Pendiente')
+plt.legend()
 plt.savefig("Plots/630penvscic.png")
 plt.close()
 
-plt.plot(ciclos, coercitividadDer, c = "green", label ="Después")
+plt.plot(ciclos, coercitividadDerAfter, c = "red", label ="Después")
+plt.plot(ciclos, coercitividadDerBefore, c = "green", label ="Antes")
 plt.xlabel('Número de ciclos')
 plt.ylabel(u'Coercitividad (oe)')
+plt.legend(loc="lower right")
 plt.savefig("Plots/630coervscic.png")
 plt.close()
 
 plt.figure(figsize=(11, 7))
-plt.plot(ciclos, magRemanente, c = "blue", label ="Después")
+plt.plot(ciclos, magRemanenteAfter, c = "red", label ="Después")
+plt.plot(ciclos, magRemanenteBefore, c = "green", label ="Antes")
 plt.xlabel(u'Número de ciclos')
-plt.ylabel(u'Magnetización remanente (emu) ')
+plt.ylabel(u'Magnetización remanente (emu)')
+plt.legend()
 plt.savefig("Plots/630remavscic.png")
 plt.close()
 
 plt.figure(figsize=(9, 7))
-plt.plot(ciclos, magSaturacion, c = "violet", label ="Después")
+plt.plot(ciclos, magSaturacionAfter, c = "red", label ="Después")
+plt.plot(ciclos, magSaturacionBefore, c = "green", label ="Antes")
 plt.xlabel('Número de ciclos')
 plt.ylabel(u'Magnetización de saturación (emu)')
+plt.legend()
 plt.savefig("Plots/630satuvscic.png")
 plt.close()
 
+plt.plot(ciclos, anchoAfter, c = "red", label ="Después")
+plt.plot(ciclos, anchoBefore, c = "green", label ="Antes")
+plt.xlabel('Número de ciclos')
+plt.ylabel(u'Ancho histeresis (oe)')
+plt.legend()
+plt.savefig("Plots/630anchovscic.png")
+plt.close()
