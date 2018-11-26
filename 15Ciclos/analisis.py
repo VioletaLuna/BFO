@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 #Masa en mg
-m630After=28.8
-m630Before =43.2
+m630After=28.8*(0.001)
+m630Before =43.2*(0.001)
 
 nomMedicionAfter = 'After630/BFO630_AfterEstaSi_Recal600C_300K_91118_SETd15 #'
 nomMedicionBefore ='Before630/BFO630_BeforeEstaSi_Recal600C_300K_91118_SETd15 #'
@@ -30,9 +30,6 @@ magRemanenteBefore =np.zeros(15)
 
 magSaturacionAfter = np.zeros(15)
 magSaturacionBefore = np.zeros(15)
-
-
-
 
 #Hallamos la pendiente
 def calPendiente(field, momentum):
