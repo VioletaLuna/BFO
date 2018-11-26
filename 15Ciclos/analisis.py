@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
-#Masa en mg
+#Masa
 m630After=28.8*(0.001)
 m630Before =43.2*(0.001)
 
@@ -13,6 +13,7 @@ extencion='.txt'
 
 ciclos = np.arange(1,16)
 
+#Creamos los arrelos que guradaran los valores
 coercitividadIzqAfter = np.zeros(15)
 coercitividadIzqBefore = np.zeros(15)
 
@@ -31,7 +32,8 @@ magRemanenteBefore =np.zeros(15)
 magSaturacionAfter = np.zeros(15)
 magSaturacionBefore = np.zeros(15)
 
-#Hallamos la pendiente
+
+#Hallamos la pendiente por medio del método disponible en Sklearn de regresión lineal
 def calPendiente(field, momentum):
 	reg= LinearRegression()
 	reg = reg.fit(field.reshape(-1, 1),momentum.reshape(-1, 1))
@@ -66,6 +68,8 @@ def calMagSaturacion(field, momentum):
 	return(momentum[pos])
 	
 plt.figure(figsize=(10, 7))
+
+#Lllamos la funciones para calcularo lso valores de interés, asignamos a las variables correspondientes y graficamos lo 15 ciclos.
 for i in ciclos:
 	nombreAfter = nomMedicionAfter + str(i) + extencion
 	data = np.genfromtxt(nombreAfter, delimiter = "", skip_header = 12)
@@ -99,12 +103,14 @@ plt.ylabel(u'M(emu)')
 plt.savefig("Plots/630MvsH15.png" )
 plt.close()
 
+plt.figure(figsize=(11, 7))
 plt.plot(ciclos, pendienteAfter, c = "red", label ="Después")
 plt.plot(ciclos, pendienteBefore, c = "green", label ="Antes")
 plt.xlabel('Número de ciclos')
 plt.ylabel(u'Pendiente')
 plt.legend()
 plt.savefig("Plots/630penvscic.png")
+plt.show()
 plt.close()
 
 plt.plot(ciclos, coercitividadDerAfter, c = "red", label ="Después")
