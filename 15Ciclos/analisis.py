@@ -42,7 +42,8 @@ def calPendiente(field, momentum):
 
 #Hallamos la coercitividad
 def calCoercitividad(field, momentum):
-	momentumTem = np.abs(momentum)
+	#Quitamos los primeros datos para no considerar la liena inicial
+	momentumTem = np.abs(momentum[20:])
 	pos1 = np.argmin(momentumTem)
 	momentumTem[pos1] = np.inf
 	pos2 = np.argmin(momentumTem)
@@ -107,7 +108,7 @@ plt.figure(figsize=(11, 7))
 plt.plot(ciclos, pendienteAfter, c = "red", label ="Después")
 plt.plot(ciclos, pendienteBefore, c = "green", label ="Antes")
 plt.xlabel('Número de ciclos')
-plt.ylabel(u'Pendiente')
+plt.ylabel(u'Pendiente (emu/g oe)')
 plt.legend()
 plt.savefig("Plots/630penvscic.png")
 plt.close()
